@@ -109,11 +109,12 @@ footer {
 }
 
 .contact-nav {
-  display: flex;
+  display: inline-flex;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: auto;
   padding: 0px;
+  align-items: center;
 
   font-weight: 500;
   font-size: 14px;
@@ -130,8 +131,28 @@ footer {
   margin-right: 30px;
 }
 
+.item.mail::before {
+  content: "";
+  display: inline-flex;
+  width: 16px;
+  height: 11px;
+  margin-right: 10px;
+  background-image: url(../images/envelope.svg);
+  background-size: contain;
+}
+
+.item.phone::before {
+  content: "";
+  display: inline-flex;
+  width: 10px;
+  height: 15px;
+  margin-right: 10px;
+  background-image: url(../images/smartphone.svg);
+  background-size: contain;
+}
+
 .contact-nav .link {
-  display: inline-block;
+  display: inline-flex;
   color: var(--primaty-text-color);
   text-decoration: none;
 }
