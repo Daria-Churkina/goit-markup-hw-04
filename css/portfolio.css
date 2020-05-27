@@ -16,6 +16,7 @@ button {
   display: inline-block;
   border-radius: 4px;
   padding: 6px 22px;
+  border-color: transparent;
 
   color: var(--title-text-color);
   background-color: var(--secondary-bg-color);
@@ -31,10 +32,13 @@ button:hover,
 button:focus {
   background-color: var(--accent-bg-color);
   color: var(--white-text-color);
+  border-color: transparent;
+  cursor: pointer;
 }
 
 .container.main {
   padding-top: 93px;
+  padding-bottom: 99px;
 }
 
 /* services */
