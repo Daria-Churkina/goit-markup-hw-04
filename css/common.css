@@ -33,7 +33,7 @@ footer {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 2px solid blue; */
+  outline: 2px solid blue;
 }
 
 .container.navigation {
@@ -117,6 +117,10 @@ footer {
   line-height: 1.14;
   letter-spacing: 0.02em;
   list-style: none;
+}
+
+.contact-nav .link {
+  align-items: center;
 }
 
 .contact-nav .item.mail {

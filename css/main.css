@@ -103,7 +103,16 @@
   text-transform: uppercase;
 }
 
-/* .feature-list .item {
+.feature-icon {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.feature-list .item {
   content: "";
   display: inline-block;
   width: 270px;
@@ -113,7 +122,7 @@
   background: var(--secondary-bg-color);
   background-repeat: no-repeat;
   background-position: center;
-} */
+}
 
 .title {
   margin: 0px;
@@ -127,6 +136,7 @@
 .feature-list .text {
   display: block;
   width: 270px;
+  height: 75px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
