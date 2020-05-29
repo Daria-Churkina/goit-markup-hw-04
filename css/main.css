@@ -103,7 +103,7 @@
   text-transform: uppercase;
 }
 
-.feature-list .item::before {
+/* .feature-list .item {
   content: "";
   display: inline-block;
   width: 270px;
@@ -113,24 +113,7 @@
   background: var(--secondary-bg-color);
   background-repeat: no-repeat;
   background-position: center;
-}
-
-.item.attention::before {
-  background-image: url(../images/antenna_black.svg);
-}
-
-.item.time::before {
-  background-image: url(../images/clock.svg);
-}
-
-.item.plan::before {
-  background-image: url(../images/diagram.svg);
-}
-
-.item.technology::before {
-  background-image: url(../images/astronaut.svg);
-  margin-right: 0px;
-}
+} */
 
 .title {
   margin: 0px;
