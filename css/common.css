@@ -241,18 +241,39 @@ footer {
 }
 
 .join-social {
+  display: flex;
   margin: 0px;
   padding: 0px;
   list-style: none;
 }
 
 .join-social .link {
-  display: inline-block;
   text-decoration: none;
 }
 
 .join-social .link:hover {
   fill: var(--accent-bg-color);
+}
+
+.icon-detail.footer {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  color: var(--white-text-color);
+  background-color: rgba(255, 255, 255, 0.1);
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.icon-detail:hover,
+.icon-detail:focus {
+  color: var(--white-text-color);
+  background-color: var(--accent-bg-color);
+}
+
+.detail-social {
+  fill: currentColor;
 }
 
 .bottom-text {

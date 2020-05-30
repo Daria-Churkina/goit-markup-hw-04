@@ -9,40 +9,72 @@
 
 /* ==========================================
 Single-colored icons can be modified like so:
-.icon-name {
+.name {
   font-size: 32px;
   color: red;
 }
 ========================================== */
 
-.icon-envelope {
+.envelope {
   width: 1.3330078125em;
 }
 
-.icon-logo1 {
+.logo1 {
   width: 0.900390625em;
 }
 
-.icon-logo2 {
+.logo2 {
   width: 0.76953125em;
 }
 
-.icon-logo3 {
+.logo3 {
   width: 0.953125em;
 }
 
-.icon-logo4 {
+.logo4 {
   width: 1.8603515625em;
 }
 
-.icon-logo5 {
+.logo5 {
   width: 1.2548828125em;
 }
 
-.icon-logo6 {
+.logo6 {
   width: 1.9345703125em;
 }
 
-.icon-smartphone {
+.smartphone {
+  width: 0.6669921875em;
+}
+
+.envelope1 {
+  width: 1.3330078125em;
+}
+
+.logo11 {
+  width: 0.900390625em;
+}
+
+.logo21 {
+  width: 0.76953125em;
+}
+
+.logo31 {
+  width: 0.953125em;
+}
+
+.logo41 {
+  width: 1.8603515625em;
+}
+
+.logo51 {
+  width: 1.2548828125em;
+}
+
+.logo61 {
+  width: 1.9345703125em;
+}
+
+.smartphone1 {
   width: 0.6669921875em;
 }
