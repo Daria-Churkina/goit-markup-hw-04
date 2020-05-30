@@ -41,6 +41,10 @@ footer {
   align-items: center;
 }
 
+.navigation .link.current {
+  color: var(--accent-bg-color);
+}
+
 .logo {
   padding-top: 24px;
   padding-bottom: 25px;
