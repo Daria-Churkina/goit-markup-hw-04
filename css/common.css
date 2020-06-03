@@ -45,6 +45,36 @@ footer {
   color: var(--accent-bg-color);
 }
 
+.item.studio {
+  position: relative;
+}
+
+.link.current::after {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  content: "";
+  width: 47px;
+  height: 4px;
+  background-color: var(--accent-bg-color);
+  border-radius: 4px;
+}
+
+.item.portfolio {
+  position: relative;
+}
+
+.link.current.portfolio::after {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  content: "";
+  width: 77px;
+  height: 4px;
+  background-color: var(--accent-bg-color);
+  border-radius: 4px;
+}
+
 .logo {
   padding-top: 24px;
   padding-bottom: 25px;
